@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="sec1.css">
+     <link rel="stylesheet" href="sec2.css">
+     <script src="script.js"></script>
+     
+
+</head>
+<body>
+    <!--navbar-->
+        <nav class="navbar">
+        <div class="Logo">NEERAJA</div>
+        <ul class="list">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+         <li><a href="#projects">PROJECTS</a></li>
+         <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!--responsive nav bar-->
+    <nav class="navbar-menu">
+        <div class="logo">NEERAJA</div>
+        <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+        <ul class="list">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+         <li><a href="#projects">PROJECTS</a></li>
+         <li><a href="#contact">CONTACT</a></li>
+        </ul></nav>
+        <!--section1 home-->
+    <section class="sec1">
+        <div class="sec-1-1"> <img src="C:\Users\DELL\Documents\photos\1.jpg" alt="no image" ></div>
+        <div class="sec-1-2">
+            <span class="sec-1-2-1">Hello,I'm</span>
+            <h1>Neeraja</h1>
+            <span class="sec-1-2-3">front end  developer </span>
+            <p>I am a motivated BSC Computer Science student eager to leverage my
+academic expertise to enhance real-world IT solutions. With a strong
+foundation in programming and effective communication skills, I aim to
+contribute to innovative team projects and improve user experiences through
+technology</p>
+            <div class="btns">
+                <a href="file:///C:/Users/DELL/Desktop/neerajaresume.png.pdf"Download="resume.pdf">Download cv</a> <button onclick="window.location.href='tel:+919391530683'"> contact us</button></div>
+            <div class="social">
+            <img src="c:\Users\DELL\Documents\photos\instaicon.jpg"alt="no">
+            <img src="c:\Users\DELL\Documents\photos\linkedinicon.png"alt="no">
+        </div>
+    </section>
+        <script>
+        const hamburger = document.querySelector('.hamburger');
+        const menuList = document.querySelector('.navbar-menu .list');
+        hamburger.addEventListener('click', () => {
+        menuList.classList.toggle('show');
+       });
+       </script>
+    <!--section2/about-->
+    <section class="sec2">
+        <div class="sec2-1">
+            <span>Get To Know More</span>
+            <h1>ABOUT ME</h1>
+        </div>
+        <div class="sec2-2">
+            <div class="sec2-2-1">
+                <img src="C:\Users\DELL\Documents\photos\1.jpg" alt="img">
+            </div>
+            <div class="sec2-2-2">
+                <div class="sec2-2-2-1">
+                <div class="box">
+                    <img src="" alt="">
+                    <span>Internships</span>
+                    <span>web development</span>
+                </div>
+                <div class="box">
+                <img src="" alt="">
+                    <span>Education</span>
+                    <span>BSC Bachelors Degree</span>
+                </div>
+            </div>
+            <div>
+                    <p class="p1">I am a motivated BSC Computer Science student eager to leverage my
+                    academic expertise to enhance real-world IT solutions. With a strong
+                     foundation in programming and effective communication skills, I aim to
+                    contribute to innovative team projects and improve user experiences through
+                     technology</p>
+            </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
